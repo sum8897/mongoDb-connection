@@ -1,0 +1,26 @@
+{
+  "name": "mongodb-connection",
+  "version": "1.0.0",
+  "description": "mongoDB project connection with node express",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sum8897/mongoDb-connection.git"
+  },
+  "author": "Ashish Chaurasiya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sum8897/mongoDb-connection/issues"
+  },
+  "homepage": "https://github.com/sum8897/mongoDb-connection#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "http": "^0.0.1-security",
+    "mongoose": "^8.18.0",
+    "nodemon": "^3.1.10"
+  }
+}
