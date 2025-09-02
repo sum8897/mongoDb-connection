@@ -18,8 +18,11 @@
   },
   "homepage": "https://github.com/sum8897/mongoDb-connection#readme",
   "dependencies": {
+    "dotenv": "^17.2.1",
+    "ejs": "^3.1.10",
     "express": "^5.1.0",
     "http": "^0.0.1-security",
+    "mongodb": "^6.19.0",
     "mongoose": "^8.18.0",
     "nodemon": "^3.1.10"
   }
