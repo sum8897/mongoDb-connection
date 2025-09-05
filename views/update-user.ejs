@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MongoDB connection</title>
+  </head>
+  <body>
+    <h5>MongoDB Form data</h5>
+    <form action="/user/update/<%= result._id %>" method="post">
+      <div style="margin: 30px">
+        Name:
+        <input type="text" name="name" value="<%= result.name %>" placeholder="Enter name" /><br /><br />
+        Email:
+        <input type="text" name="email" value="<%= result.email %>" placeholder="Enter email" /><br /><br />
+        Age :
+        <input type="number" name="age" value="<%= result.age %>" placeholder="Enter age" /><br /><br />
+        Password:
+        <input
+          type="text"
+          name="password"
+          placeholder="Enter pass"
+          value="<%= result.password %>"
+        /><br><br>
+        Mobile:
+        <input
+          type="text"
+          name="mobile"
+          placeholder="Enter mobile"
+          value="<%= result.mobile %>"
+        /><br /><br />
+        <button type="submit" value="submit">Update</button>
+      </div>
+    </form>
+  </body>
+</html>
